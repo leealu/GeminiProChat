@@ -39,3 +39,4 @@ jobs:
           tags: |
             ${{ secrets.DOCKER_USERNAME }}/geminiprochat:${{ github.ref_name }}
             ${{ secrets.DOCKER_USERNAME }}/geminiprochat:latest
+            
